@@ -56,3 +56,20 @@ docker volume inspect fastapi_postgres_data
 Windows:
 https://docs.docker.com/desktop/install/windows-install/
 
+
+## FastApi Crude
+
+```
+mkdir fastapi-crud && \
+    cd fastapi-crud && \
+    type nul > docker-compose.yml && \
+    mkdir src && \
+    cd src && \
+    type nul > Dockerfile && \
+    type nul > requirements.txt && \
+    mkdir app && \
+    cd app && \
+    type nul > __init__.py && \
+    type nul > main.py
+```
+
