@@ -24,6 +24,30 @@ http://127.0.0.1:8000/docs
 http://127.0.0.1:8000/redoc
 
 
+## Docker
+
+### pre requisite
+
+- Docker compose
+
+```shell
+docker-compose build
+```
+
+```shell
+docker-compose up -d
+```
+
+http://127.0.0.1:8008/docs
+
+http://127.0.0.1:8008/
+
+Check postgres db
+
+docker-compose exec db psql --username=jb_fastapi --dbname=jb_fastapi
+
+docker volume inspect fastapi_postgres_data
+
 
 ## Docker
 
@@ -31,10 +55,4 @@ http://127.0.0.1:8000/redoc
 
 Windows:
 https://docs.docker.com/desktop/install/windows-install/
-
-## Dbeaver
-
-SQL client to run queries
-
-https://dbeaver.io/download/
 
