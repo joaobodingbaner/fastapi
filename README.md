@@ -59,6 +59,8 @@ https://docs.docker.com/desktop/install/windows-install/
 
 ## FastApi Crude
 
+https://testdriven.io/blog/fastapi-crud/
+
 ```
 mkdir fastapi-crud && \
     cd fastapi-crud && \
