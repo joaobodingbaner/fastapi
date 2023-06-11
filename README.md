@@ -62,16 +62,16 @@ https://docs.docker.com/desktop/install/windows-install/
 https://testdriven.io/blog/fastapi-crud/
 
 ```
-mkdir fastapi-crud && \
-    cd fastapi-crud && \
-    type nul > docker-compose.yml && \
-    mkdir src && \
-    cd src && \
-    type nul > Dockerfile && \
-    type nul > requirements.txt && \
-    mkdir app && \
-    cd app && \
-    type nul > __init__.py && \
+mkdir fastapi-crud &&
+    cd fastapi-crud &&
+    type nul > docker-compose.yml &&
+    mkdir src &&
+    cd src &&
+    type nul > Dockerfile &&
+    type nul > requirements.txt &&
+    mkdir app &&
+    cd app &&
+    type nul > __init__.py &&
     type nul > main.py
 ```
 
